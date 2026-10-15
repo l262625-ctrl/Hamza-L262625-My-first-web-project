@@ -1,0 +1,111 @@
+/* Universal Typography and Box Sizing */
+body {
+    font-family: 'Lucinda Grande', sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 0;
+}
+
+#container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 3px solid #a0e0e0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+#header {
+    background-color: #aae7e7;
+    padding: 15px 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    color: #0b7e7e;
+    margin: 0;
+    font-size: 2.2em;
+    font-weight: normal;
+}
+
+#header .subtitle {
+    color: #ffffff;
+    margin: 5px 0 0 0;
+    font-size: 1.1em;
+}
+
+/* Sidebar (Friends) Styling */
+#sidebar {
+    float: left;
+    width: 22%;
+    background-color: #2ac5c5;
+    padding: 15px;
+    border: 1px solid #24b2b2;
+    margin-right: 3%;
+    min-height: 300px;
+}
+
+#sidebar h2 {
+    color: #ffffff;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+#sidebar ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Main Content and Journal Entries Styling */
+#main-content {
+    float: left;
+    width: 72%;
+}
+
+.journal-entry {
+    border: 3px solid #aae7e7;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.entry-text {
+    float: left;
+    width: 70%;
+}
+
+.journal-entry h2 {
+    color: #2ac5c5;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.journal-entry h2 .date {
+    text-decoration: underline;
+}
+
+.journal-entry p {
+    color: #ff9999; /* Light red/pink text matching the sample */
+    line-height: 1.5;
+    font-size: 0.95em;
+    margin-bottom: 0;
+}
+
+/* Entry Images Styling */
+.entry-img {
+    float: right;
+    width: 25%;
+    border: 1px solid #cccccc;
+    padding: 4px;
+    background-color: #fff;
+}
+
+/* Clearfix Utility to prevent layout collapse from floats */
+.clear {
+    clear: both;
+}
